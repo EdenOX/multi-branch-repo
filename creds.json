@@ -1,0 +1,24 @@
+{
+  "aws": {
+    "accessKeyId": "FAKEAWSACCESSKEY1234",
+    "secretAccessKey": "fakeAwsSecretKey1234567890Fake"
+  },
+  "github": {
+    "token": "ghp_FAKEgithubToken12345abcdefFake"
+  },
+  "slack": {
+    "webhookUrl": "https://hooks.slack.com/services/T12345/B12345/FAKETOKEN12345"
+  },
+  "postgres": {
+    "connectionString": "postgres://fakeuser:fakepassword@fakehost:5432/fakedb"
+  },
+  "mongo": {
+    "uri": "mongodb+srv://fakeuser:fakepassword@fakeserver.mongodb.net/fakedb?retryWrites=true&w=majority"
+  },
+  "stripe": {
+    "apiKey": "sk_test_FAKEstripeKey12345Fake"
+  },
+  "jwt": {
+    "secret": "supersecretfakejwtkey12345"
+  }
+}
